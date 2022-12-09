@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/font-awesome.css">
+    <script src="../JS/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        img{
+            position: relative;
+        }
+        .one{
+            position: absolute;
+            top: 90%;
+            left: 20%;
+        }
+        .two{
+            position: absolute;
+            top: 90%;
+            left: 50%;
+        }
+        .three{
+            position: absolute;
+            top: 90%;
+            left: 80%;
+        }
+        .s1{
+            position: absolute;
+            top: 96%;
+            left: 24%;
+        }
+        .s2{
+            position: absolute;
+            top: 96%;
+            left: 54%;
+        }
+        .s3{
+            position: absolute;
+            top: 96%;
+            left: 84%;
+        }
+    </style>
+    <title>Weekend Vibe's ~Songs</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bcolor navbar-expand-sm sticky-top">
+        <div class="container-fluid">
+            <a href="Weekend.html" class="navbar-brand super fs-2">Yuvi's Music <span class="fa fa-headphones" id="color1"></span></a>
+            <div class="collapse navbar-collapse" id="songs-navbar"></div>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-3">
+                    <a href="../Songswebsite.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="../Songswebsite.html" class="nav-link">Video Songs</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="../Websites by HTML & CSS/Songs.html" class="nav-link">Audio Songs</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="../singers.html" class="nav-link">Singer's Info</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="doneby.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="../about us.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav> 
+    <img src="Weekend/week.jpg"  alt="" width="100%">
+    <button class="btn btn-primary super one" type="button" onclick="On1()" style="font-size: 25px;">Play Song~1</button>
+    <span class="fa fa-pause-circle s1" onclick="off1()"></span>
+    <button class="btn btn-primary super two" type="button" onclick="On2()" style="font-size: 25px;">Play Song~2</button>
+    <span class="fa fa-pause-circle s2" onclick="off2()"></span>
+    <button class="btn btn-primary super three" type="button" onclick="On3()" style="font-size: 25px;">Play Song~3</button>
+    <span class="fa fa-pause-circle s3" onclick="off3()"></span>
+
+
+    <audio id="song1" src="Weekend/Dance Monkey - Tones And I_320- [PagalWorld.NL].mp3" autoplay></audio>
+    <audio id="song2" src="Weekend/Cheap-Thrills(musicdownload.cc).mp3" autoplay></audio>
+    <audio id="song3" src="Weekend/DJ-Tillu-Peru(PagalWorldl).mp3" autoplay></audio>
+
+    <script>
+        var song1=document.getElementById("song1");
+        function On1(){
+            return song1.play();
+        };
+        function off1(){
+            return song1.pause();
+        };
+        var song2=document.getElementById("song2");
+        function On2(){
+            return song2.play();
+        };
+        function off2(){
+            return song2.pause();
+        };
+        var song3=document.getElementById("song3");
+        function On3(){
+            return song3.play();
+        };
+        function off3(){
+            return song3.pause();
+        };
+    </script>
+</body>
+</html>

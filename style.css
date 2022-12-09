@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.super{
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.middle{
+    position: fixed;
+    top:25%;
+    left: 25%;
+    box-shadow: 0 0 10px;
+    width: 300px;
+}
+y{
+    position: fixed;
+    top: 28%;
+    left: 28%;
+    box-shadow: 0 0 10px 10px;
+}
+img{
+    position: relative;
+}
+
+#cap1{
+    position: absolute;
+    top: 30px;
+}
+
+#cap3{
+    position: absolute;
+    bottom: 100px;
+}
+
+a.style{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.color{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);  
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#color1{
+    background-image: linear-gradient(150deg,indigo, blue);  
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.bcolor{
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
